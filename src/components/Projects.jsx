@@ -29,95 +29,97 @@ export default function Projects() {
       </section>
 
       <section className="featured-projects">
-        <div className="container flex gap-20">
+        <div className="container">
           <h2 data-aos="zoom-in" data-aos-duration="1000">Featured Projects</h2>
 
-          <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
-            <div className="img-container">
-              <video className="banner-video lazy-video" autoPlay={1} muted loop data-src={zero9Video}>
-                <source src={zero9Video} type="video/mp4"/>
-              </video>
+          <div className="flex gap-20">
+            <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+              <div className="img-container">
+                <video className="banner-video" autoPlay={1} muted loop data-src={zero9Video}>
+                  <source src={zero9Video} type="video/mp4"/>
+                </video>
+              </div>
+              <ul className="flex gap-10">
+                <li>WordPress</li>
+                <li>PHP</li>
+                <li>HTML5</li>
+                <li>JS</li>
+                <li>CSS3 + SCSS</li>
+              </ul>
+              <a className="button" href="https://zero9.com.au/" target="_blank" rel="noopener">Visit Site</a>
             </div>
-            <ul className="flex gap-10">
-              <li>WordPress</li>
-              <li>PHP</li>
-              <li>HTML5</li>
-              <li>JS</li>
-              <li>CSS3 + SCSS</li>
-            </ul>
-            <a className="button" href="https://zero9.com.au/" target="_blank" rel="noopener">Visit Site</a>
-          </div>
 
-          <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
-            <div className="img-container">
-              <img src={samadhiImage} alt="Samadhi Builds project image"/>
+            <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+              <div className="img-container">
+                <img src={samadhiImage} alt="Samadhi Builds project image"/>
+              </div>
+              <ul className="flex gap-10">
+                <li>WordPress</li>
+                <li>PHP</li>
+                <li>HTML5</li>
+                <li>JS</li>
+                <li>CSS3 + SCSS</li>
+              </ul>
+              <a className="button" href="https://samadhibuilds.com.au/" target="_blank" rel="noopener">Visit Site</a>
             </div>
-            <ul className="flex gap-10">
-              <li>WordPress</li>
-              <li>PHP</li>
-              <li>HTML5</li>
-              <li>JS</li>
-              <li>CSS3 + SCSS</li>
-            </ul>
-            <a className="button" href="https://samadhibuilds.com.au/" target="_blank" rel="noopener">Visit Site</a>
-          </div>
 
-          <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
-            <div className="img-container">
-              <img src={keystoneImage} alt="Keystone Negotiation project image"/>
+            <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+              <div className="img-container">
+                <img src={keystoneImage} alt="Keystone Negotiation project image"/>
+              </div>
+              <ul className="flex gap-10">
+                <li>WordPress</li>
+                <li>PHP</li>
+                <li>HTML5</li>
+                <li>JS</li>
+                <li>CSS3 + SCSS</li>
+              </ul>
+              <a className="button" href="https://www.keystonenegotiation.com/" target="_blank" rel="noopener">Visit Site</a>
             </div>
-            <ul className="flex gap-10">
-              <li>WordPress</li>
-              <li>PHP</li>
-              <li>HTML5</li>
-              <li>JS</li>
-              <li>CSS3 + SCSS</li>
-            </ul>
-            <a className="button" href="https://www.keystonenegotiation.com/" target="_blank" rel="noopener">Visit Site</a>
-          </div>
 
-          <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
-            <div className="img-container">
-              <img src={cdaClinicsImage} alt="CDA Clinics project image"/>
+            <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+              <div className="img-container">
+                <img src={cdaClinicsImage} alt="CDA Clinics project image"/>
+              </div>
+              <ul className="flex gap-10">
+                <li>WordPress</li>
+                <li>PHP</li>
+                <li>HTML5</li>
+                <li>JS</li>
+                <li>CSS3 + SCSS</li>
+              </ul>
+              <a className="button" href="https://cdaclinics.com.au/" target="_blank" rel="noopener">Visit Site</a>
             </div>
-            <ul className="flex gap-10">
-              <li>WordPress</li>
-              <li>PHP</li>
-              <li>HTML5</li>
-              <li>JS</li>
-              <li>CSS3 + SCSS</li>
-            </ul>
-            <a className="button" href="https://cdaclinics.com.au/" target="_blank" rel="noopener">Visit Site</a>
-          </div>
 
-          <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
-            <div className="img-container">
-              <video className="banner-video lazy-video" autoPlay={1} muted loop data-src={wsxVideo}>
-                <source src={wsxVideo} type="video/mp4"/>
-              </video>
+            <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+              <div className="img-container">
+                <video className="banner-video" autoPlay={1} muted loop data-src={wsxVideo}>
+                  <source src={wsxVideo} type="video/mp4"/>
+                </video>
+              </div>
+              <ul className="flex gap-10">
+                <li>WordPress</li>
+                <li>PHP</li>
+                <li>HTML5</li>
+                <li>JS</li>
+                <li>CSS3 + SCSS</li>
+              </ul>
+              <a className="button" href="https://wsxchampionship.com/" target="_blank" rel="noopener">Visit Site</a>
             </div>
-            <ul className="flex gap-10">
-              <li>WordPress</li>
-              <li>PHP</li>
-              <li>HTML5</li>
-              <li>JS</li>
-              <li>CSS3 + SCSS</li>
-            </ul>
-            <a className="button" href="https://wsxchampionship.com/" target="_blank" rel="noopener">Visit Site</a>
-          </div>
 
-          <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
-            <div className="img-container">
-              <img src={miboImage} alt="Mibo project image"/>
+            <div className="project-box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+              <div className="img-container">
+                <img src={miboImage} alt="Mibo project image"/>
+              </div>
+              <ul className="flex gap-10">
+                <li>WordPress</li>
+                <li>PHP</li>
+                <li>HTML5</li>
+                <li>JS</li>
+                <li>CSS3 + SCSS</li>
+              </ul>
+              <a className="button" href="https://www.mibowork.com.au/" target="_blank" rel="noopener">Visit Site</a>
             </div>
-            <ul className="flex gap-10">
-              <li>WordPress</li>
-              <li>PHP</li>
-              <li>HTML5</li>
-              <li>JS</li>
-              <li>CSS3 + SCSS</li>
-            </ul>
-            <a className="button" href="https://www.mibowork.com.au/" target="_blank" rel="noopener">Visit Site</a>
           </div>
         </div>
       </section>

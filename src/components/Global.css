@@ -1,4 +1,3 @@
-
 /* Resets */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -17,15 +16,16 @@ time, mark, audio, video {
 	font-size: 100%;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-
 
 table {
 	border-collapse: collapse;
@@ -46,15 +46,6 @@ b, strong {
 	font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
 :root {
   --white: #FFFFFF;
   --black: #000000;
@@ -64,7 +55,6 @@ b, strong {
   --orange: #ee7752;
   --grey: #808080;
   --yellow: rgb(212, 223, 56);
-
   --border-radius-5: 5px;
 }
 
@@ -74,12 +64,8 @@ b, strong {
 
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif; /* Replaced $robo with a common font stack */
+  font-family: 'Roboto', sans-serif;
   color: var(--white);
-}
-
-html, body {
-  font-size: 10px;
 }
 
 body {
@@ -94,7 +80,9 @@ body {
   gap: 20px;
 }
 
-
+.gap-40 {
+  gap: 40px;
+}
 
 .container {
   max-width: 90%;
@@ -107,12 +95,14 @@ body {
   flex-wrap: wrap;
 }
 
+.align-center {
+  align-items: center;
+}
+
 img {
   max-width: 100%;
   height: auto;
 }
-
-
 
 .img-container {
   position: relative;
@@ -130,9 +120,7 @@ img {
 }
 
 
-
-
-
+/* Banner */
 .banner {
   height: 100vh;
 }
@@ -157,20 +145,7 @@ img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-.background-color {
-  background: linear-gradient(0deg, #000000 0%, rgba(0,0,0,0) 100%);
-}
-
+/* Button */
 .button {
   display: inline-block;
   background-color: var(--blue);
@@ -191,7 +166,7 @@ img {
 }
 
 .button:hover {
-  background-color: black;
+  background-color: var(--black);
 }
 
 ul {
@@ -208,15 +183,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2, h3 {
-  margin: 0 0 25px;
+  margin: 0 0 40px;
 }
 
 h4, h5, h6 {
-  margin: 0 0 15px;
+  margin: 0 0 20px;
 }
 
 h1 {
   font-size: 50px;
+  margin: 0;
 }
 
 h2 {
