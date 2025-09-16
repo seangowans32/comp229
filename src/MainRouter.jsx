@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout.jsx'
+import Header from './components/Header.jsx'
 import Home from './components/Home.jsx'
 import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
@@ -10,7 +10,7 @@ import Projects from './components/Projects.jsx'
 const MainRouter = () => {
   return (
     <>
-      <Layout />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
