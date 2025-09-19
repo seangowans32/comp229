@@ -36,18 +36,6 @@
 
 
 /* All Sites */
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 .sites {
   padding: 100px 0;
   background: linear-gradient(-45deg, var(--orange), var(--red), var(--blue), var(--teal));
@@ -71,7 +59,6 @@
 }
 
 .sites h2 {
-  flex: 0 0 100%;
   text-align: center;
 }
 
