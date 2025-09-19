@@ -47,6 +47,7 @@ b, strong {
 }
 
 :root {
+  --main-font: 'Roboto', sans-serif;
   --white: #FFFFFF;
   --black: #000000;
   --blue: #23a6d5;
@@ -65,7 +66,7 @@ b, strong {
 
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   color: var(--white);
 }
 

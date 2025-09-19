@@ -226,6 +226,8 @@ export default function Projects() {
             {/* <li><a href="https://www.mibowork.com.au/" target="_blank" rel="noopener">triple-a-full-site</a></li> */}
             {/* <li><a href="https://www.mibowork.com.au/" target="_blank" rel="noopener">triplea</a></li> */}
             {/* <li><a href="https://www.mibowork.com.au/" target="_blank" rel="noopener">wickedstore</a></li> */}
+
+            <li><a href="https://thebaratie.infinityfreeapp.com/" target="_blank" rel="noopener">The Baratie</a></li>
           </ul>
         </div>
       </section>

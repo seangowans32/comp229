@@ -1,10 +1,8 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-
 import './About.css';
-
-import bannerImg from '../assets/img-6.jpg';
+import bannerImg from '../assets/img-1.jpg';
 import profileImg from '../assets/sean-gowans.png';
 import resumePdf from '../assets/sean-gowans-cv24.pdf';
 
