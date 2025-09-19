@@ -19,6 +19,7 @@
 
 .header.scroll-active {
   background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
 .header nav {

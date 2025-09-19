@@ -14,7 +14,11 @@
   width: 100%;
   padding: 0 0 100%;
   border-radius: var(--border-radius-20);
-  border: 1px solid var(--yellow);
+  border: 1px solid rgba(255, 255, 255, .1);
+}
+
+.about .col-left .button {
+  margin-top: 20px;
 }
 
 .about .content {

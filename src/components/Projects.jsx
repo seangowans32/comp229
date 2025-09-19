@@ -44,6 +44,8 @@ export default function Projects() {
                 <li>JS</li>
                 <li>CSS3 + SCSS</li>
               </ul>
+
+              <p>Developed a custom WordPress theme with responsive layouts and performance optimization, providing the client with a modern and reliable online presence.</p>
               <a className="button" href="https://zero9.com.au/" target="_blank" rel="noopener">Visit Site</a>
             </div>
 
@@ -58,6 +60,8 @@ export default function Projects() {
                 <li>JS</li>
                 <li>CSS3 + SCSS</li>
               </ul>
+
+              <p>Built a personalized WordPress portfolio site featuring clean navigation and fast loading speeds, allowing the client to showcase their work effectively.</p>
               <a className="button" href="https://samadhibuilds.com.au/" target="_blank" rel="noopener">Visit Site</a>
             </div>
 
@@ -72,6 +76,8 @@ export default function Projects() {
                 <li>JS</li>
                 <li>CSS3 + SCSS</li>
               </ul>
+
+              <p>Created a professional WordPress theme with custom templates and branding support, making it easy for the client to manage and update content.</p>
               <a className="button" href="https://www.keystonenegotiation.com/" target="_blank" rel="noopener">Visit Site</a>
             </div>
 
@@ -86,6 +92,8 @@ export default function Projects() {
                 <li>JS</li>
                 <li>CSS3 + SCSS</li>
               </ul>
+
+              <p>Designed and developed a WordPress site tailored to a service-based business, focusing on usability, mobile responsiveness, and clear calls to action.</p>
               <a className="button" href="https://cdaclinics.com.au/" target="_blank" rel="noopener">Visit Site</a>
             </div>
 
@@ -102,6 +110,8 @@ export default function Projects() {
                 <li>JS</li>
                 <li>CSS3 + SCSS</li>
               </ul>
+
+              <p>Built a WordPress-powered blog with custom styling and a user-friendly backend, enabling the client to publish and manage articles effortlessly.</p>
               <a className="button" href="https://wsxchampionship.com/" target="_blank" rel="noopener">Visit Site</a>
             </div>
 
@@ -116,6 +126,8 @@ export default function Projects() {
                 <li>JS</li>
                 <li>CSS3 + SCSS</li>
               </ul>
+
+              <p>Delivered a fully custom WordPress theme for an agency, with a clean design and flexible content sections to support future growth and updates.</p>
               <a className="button" href="https://www.mibowork.com.au/" target="_blank" rel="noopener">Visit Site</a>
             </div>
           </div>
