@@ -56,6 +56,7 @@ b, strong {
   --grey: #808080;
   --yellow: rgb(212, 223, 56);
   --border-radius-5: 5px;
+  --border-radius-20: 20px;
 }
 
 #root {
@@ -182,11 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-h2, h3 {
-  margin: 0 0 40px;
-}
-
-h4, h5, h6 {
+h3, h4, h5, h6 {
   margin: 0 0 20px;
 }
 
@@ -197,6 +194,7 @@ h1 {
 
 h2 {
   font-size: 30px;
+  margin: 0 0 40px;
 }
 
 h2 {

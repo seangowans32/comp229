@@ -2,8 +2,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
-import './Global.css';
-import './Header.css';
 import './Projects.css';
 
 import bannerImg from '../assets/img-3.jpg';

@@ -2,8 +2,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
-import './Global.css';
-import './Header.css';
 import './Home.css';
 
 import bannerImg from '../assets/img-2.jpg';
@@ -39,7 +37,7 @@ export default function Home() {
             </div>
 
             <div className="content" data-aos="fade-up" data-aos-duration="1000">
-              <p>Welcome to my portfolio! My name is Sean Gowans, and I am a web developer and software engineering student with over {yearsOfExperience} years of professional experience. Originally from Canada and now based in Germany, I've been fortunate to collaborate with clients across the globe — most notably an Australian company where I've independently delivered more than 100 projects since 2017. My work ranges from custom WordPress theme development to WooCommerce eCommerce builds, as well as front-end and back-end programming. Each project has given me the opportunity to blend technical expertise with creativity, delivering solutions that not only look great but also perform reliably.</p>
+              <p>Welcome to my portfolio! My name is Sean Gowans, and I am a web developer and software engineering student with over {yearsOfExperience} years of professional experience. Originally from Canada and now based in Germany, I've been fortunate to collaborate with clients across the globe — most notably an Australian company where I've independently delivered more than 100 projects since 2018. My work ranges from custom WordPress theme development to WooCommerce eCommerce builds, as well as front-end and back-end programming. Each project has given me the opportunity to blend technical expertise with creativity, delivering solutions that not only look great but also perform reliably.</p>
               <p>My mission is to continue learning by doing, adapting quickly, and delivering high-quality code that helps businesses thrive. Whether it’s a custom WordPress theme, an eCommerce solution, or a React-powered app, I bring discipline, creativity, and reliability to every project.</p>
               <a className="button" href="about">Learn More</a>
             </div>
