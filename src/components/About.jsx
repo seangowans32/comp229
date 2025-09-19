@@ -9,6 +9,7 @@ import profileImg from '../assets/sean-gowans.png';
 import resumePdf from '../assets/sean-gowans-cv24.pdf';
 
 export default function About() {
+  // AOS Animations
   useEffect(() => {
     AOS.init();
   }, []);
@@ -48,9 +49,6 @@ export default function About() {
 
               <h3>What Drives Me:</h3>
               <p>What keeps me motivated is the belief that every project is an opportunity to grow — both as a developer and as a person. I take pride in delivering reliable, high-quality solutions, but I also value creativity and curiosity. I enjoy problem-solving, thinking outside the box, and finding ways to make digital experiences both functional and engaging. Most importantly, I value hard work and persistence; my journey so far has proven that with enough dedication, you can achieve anything, even without a traditional start.</p>
-
-              <h3>Personal Side:</h3>
-              <p>Outside of coding, I’m passionate about learning, exploring new ideas, and staying active. Living abroad in Germany has broadened my perspective on culture and collaboration, and I carry that openness into my work. I’m always looking for new challenges, whether in professional projects, academic study, or personal experiments with new technologies.</p>
             </div>
           </div>
         </div>

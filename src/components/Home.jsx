@@ -1,18 +1,18 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-
 import './Home.css';
-
 import bannerImg from '../assets/img-2.jpg';
 import introImg from '../assets/img-4.jpg';
 import missionImg from '../assets/img-7.jpg';
 
 export default function Home() {
+  // Years of Experience Calculation
   const yearStart = new Date(2018, 10, 1);
   const currentDate = new Date(Date.now());
   const yearsOfExperience = currentDate.getFullYear() - yearStart.getFullYear();
 
+  // AOS Animations
   useEffect(() => {
     AOS.init();
   }, []);

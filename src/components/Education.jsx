@@ -1,12 +1,11 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-
 import './Education.css';
-
 import bannerImg from '../assets/img-8.jpg';
 
 export default function Education() {
+  // AOS Animations
   useEffect(() => {
     AOS.init();
   }, []);

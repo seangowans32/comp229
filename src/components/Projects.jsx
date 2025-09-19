@@ -1,9 +1,7 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-
 import './Projects.css';
-
 import bannerImg from '../assets/img-3.jpg';
 import samadhiImage from '../assets/samadhi.png';
 import keystoneImage from '../assets/keystone.png';
@@ -13,6 +11,7 @@ import zero9Video from '../assets/zero9.mp4';
 import miboImage from '../assets/mibo.png';
 
 export default function Projects() {
+  // AOS Animations
   useEffect(() => {
     AOS.init();
   }, []);
