@@ -5,6 +5,7 @@ import './Home.css';
 import bannerImg from '../assets/img-2.jpg';
 import introImg from '../assets/img-4.jpg';
 import missionImg from '../assets/img-7.jpg';
+import Footer from './Footer.jsx';
 
 export default function Home() {
   // Years of Experience Calculation
@@ -61,6 +62,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }

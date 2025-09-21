@@ -3,6 +3,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import './Services.css';
 import bannerImg from '../assets/img-9.jpg';
+import Footer from './Footer.jsx';
 
 export default function Services() {
   // AOS Animations
@@ -71,6 +72,8 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }

@@ -9,6 +9,7 @@ import cdaClinicsImage from '../assets/cdaclinics.png';
 import wsxVideo from '../assets/wsx-video.mp4';
 import zero9Video from '../assets/zero9.mp4';
 import miboImage from '../assets/mibo.png';
+import Footer from './Footer.jsx';
 
 export default function Projects() {
   // AOS Animations
@@ -231,6 +232,8 @@ export default function Projects() {
           </ul>
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }

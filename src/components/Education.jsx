@@ -3,6 +3,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import './Education.css';
 import bannerImg from '../assets/img-8.jpg';
+import Footer from './Footer.jsx';
 
 export default function Education() {
   // AOS Animations
@@ -50,6 +51,8 @@ export default function Education() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }

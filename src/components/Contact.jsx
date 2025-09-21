@@ -3,6 +3,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import './Contact.css';
 import bannerImg from '../assets/img-11.jpg';
+import Footer from './Footer.jsx';
 
 export default function Contact() {
   // AOS Animations
@@ -63,6 +64,8 @@ export default function Contact() {
           </form>
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }

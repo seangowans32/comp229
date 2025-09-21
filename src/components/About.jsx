@@ -5,6 +5,7 @@ import './About.css';
 import bannerImg from '../assets/img-1.jpg';
 import profileImg from '../assets/sean-gowans.png';
 import resumePdf from '../assets/sean-gowans-cv24.pdf';
+import Footer from './Footer.jsx';
 
 export default function About() {
   // AOS Animations
@@ -51,6 +52,8 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }

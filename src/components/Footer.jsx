@@ -1,16 +1,5 @@
-// import { useAnimation } from '../hooks/useCustomHooks';
-
-
-// import { ExperienceTimer } from './EffectsManager'
-
-
-
-
-// Initialize animation hook
-  // useAnimation();
-
-
-
+import { ExperienceTimer } from './EffectsManager';
+import './Footer.css';
 
 export default function Footer() {
   return(
